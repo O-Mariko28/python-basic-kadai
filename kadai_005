@@ -16,18 +16,14 @@
   "cells": [
     {
       "cell_type": "code",
-      "source": [
-        "daikei_result = (10+20)*5/2\n",
-        "print(f\"{int(daikei_result)}㎠\")"
-      ],
+      "execution_count": 7,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "unIZdu4xvvCQ",
-        "outputId": "77df7016-ed5d-4b8f-998c-d92479481cb5"
+        "id": "ANwUNjWyHurP",
+        "outputId": "95fdc5a1-5dae-4b94-af84-49000354b921"
       },
-      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -36,16 +32,25 @@
             "75㎠\n"
           ]
         }
+      ],
+      "source": [
+        "top = 10\n",
+        "bottom = 20\n",
+        "height = 5\n",
+        "\n",
+        "menseki = (top + bottom) * height / 2\n",
+        "\n",
+        "print(str(int(menseki))+\"㎠\")"
       ]
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "source": [],
       "metadata": {
-        "id": "ANwUNjWyHurP"
+        "id": "zrKN3_Uges8t"
       },
-      "outputs": [],
-      "source": []
+      "execution_count": 5,
+      "outputs": []
     }
   ]
 }
